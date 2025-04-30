@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livia's Cookbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./master.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg" style="background-color: #8B0000;">
+    <div class="container-fluid">
+      <img src="images/Chef_Livia_Logo.jpg" alt="Logo" width="75" height="75" class="d-inline-block align-text-top" style="margin-right:15px">
+      <a class="navbar-brand text-white" href="index.html">Livia's Cookbook</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="index.html" style="text-decoration: underline">Home</a>
+          </li>
+          <li class="nav-item dropdown"> <!--Dropdown Button-->
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Recipes
+            </a>
+            <ul class="dropdown-menu" style="background-color:#8B0000"> <!--Dropdown Options-->
+                    <li class="nav-item dropdown-submenu">
+                      <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Our Favorite Recipes</a>
+                      <ul class="dropdown-menu" style="background-color:#8B0000">
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe1.html">Creamy Garlic Butter Baked Salmon</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe2.html">Creamy Homestyle Chicken Noodle Soup</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe3.html">Baked Garlic Parmesan Boneless Wings</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe4.html">Skillet White Pesto Marry Me Chicken and Orzo</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe5.html">Marry Me Chicken Meatballs</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe6.html">30 Minute Honey Garlic Chicken</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Dessert Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe7.html">Caramel Crunch Tart</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe8.html">S'mores Brownie</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe9.html">Chocolate Pie Cookies</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe10.html">Biscoff Trifle</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe11.html">Milk 'N' Cookies Icebox Cake</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe12.html">Drumstick Pie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Easy Lunch Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe13.html">Buffalo Chicken Grilled Cheese</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe14.html">Taco Salad</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe15.html">Cheesy Baked Burrito Rice</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe16.html">Cripsy Sheet-Pan Black Bean Tacos</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe17.html">Pinwheel Sandwhiches</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe18.html">Turkey Lavash Wraps</a></li>
+                        </ul>
+                    </li>
+            </ul>
+          </li>
+          <li class="nav-item"> <!--About Us Page-->
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item"> <!--Contact Page-->
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Green Buffer Container-->  
+  <div class="container-fluid" style="height: 35px; background-color: darkgreen;">
+  </div>
+
+<!--Favorite Recipe Container-->
+  <div class="container-fluid p-5" style="background-color: blanchedalmond;">
+    <h1 class="text-center mb-5" style="color: #51361a">Our Favorite Recipes</h1>
+
+    <!--Recipes 1-3-->
+    <div class="row g-3">
+    <!--Recipe 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 1.jpg" class="card-img-top img-fit" alt="Creamy Garlic Butter Baked Salmon">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Creamy Garlic Butter Baked Salmon</h5>
+                    <p class="card-text" style="color: #51361a">
+                        This one-skillet Creamy Garlic Butter Baked Salmon is for those nights when you’re craving something a little fancier but need something quick and easy to prepare. This creamy salmon recipe’s secret is that the salmon is broiled until crisp with garlic, thyme, and butter. It’s then mixed into a simple parmesan cream sauce with spinach, lemon, and fresh herbs. Love these flavors! This salmon is easy and delicious, plus wonderful for all seasons. And the best part is that this salmon recipe can come together in less than thirty minutes!
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe1.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recipe 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 2.jpg" class="card-img-top img-fit" alt="Creamy Homestyle Chicken Noodle Soup">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Creamy Homestyle Chicken Noodle Soup</h5>
+                    <p class="card-text" style="color: #51361a">
+                        This simple, creamy homestyle chicken noodle soup is the perfect comfort food. It’s great for nights when you’re craving something warm and cozy. It’s a mix of shredded chicken and vegetables simmered with warming seasonings, a splash of cream, and classic egg noodles. Finish each bowl off with an extra sprinkle of cheese and serve with crusty bread. It’s hearty, full of herbs and veggies, and so delicious.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe2.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recpie 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 3.jpg" class="card-img-top img-fit" alt="Baked Garlic Parmesan Boneless Wings">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Baked Garlic Parmesan Boneless Wings</h5>
+                    <p class="card-text" style="color: #51361a">
+                        These simple Baked Garlic Parmesan Boneless Wings are about to become our new game-day favorite. Easy homemade crispy chicken “wings” tossed in a creamy garlic parmesan sauce. Serve with homemade fries for the easiest sheet pan appetizer or add a salad and call it dinner! This fun bar-style snack is great for entertainment or a quick weeknight dinner.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe3.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Recpies 4-6-->
+    <div class="row g-3 mt-1">
+      <!--Recpie 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="images/recipe 4.jpg" class="card-img-top img-fit" alt="Skillet White Pesto Marry Me Chicken and Orzo">
+                  <div class="card-body">
+                      <h5 class="card-title" style="color: #51361a">Skillet White Pesto Marry Me Chicken and Orzo</h5>
+                      <p class="card-text" style="color: #51361a">
+                        This simple Skillet, White Pesto Chicken and Orzo is the perfect winter dinner. Quick, easy, and so delicious! Pan-seared Italian seasoned chicken in a creamy sun-dried tomato sauce. Cooked together with orzo pasta for a quick dinner made in one skillet. Everyone at the dinner table loves this dish. It’s great for a weeknight but fancy enough to serve up at your next holiday dinner. It’s a hit all around!
+                      </p>
+                      <div class="text-end">
+                        <a href="recipe4.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                        onmouseover=
+                        "this.style.color='white';
+                         this.style.backgroundColor='#c42d2d'" 
+                         onmouseout="
+                         this.style.color='white';
+                         this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      <!--Recpie 5-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 5.jpg" class="card-img-top img-fit" alt="Marry Me Chicken Meatballs">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">Marry Me Chicken Meatballs</h5>
+                <p class="card-text" style="color: #51361a">
+                  These Marry Me Chicken Meatballs are quick, easy, and so delicious! Pan-seared Italian-seasoned chicken meatballs in a creamy sun-dried tomato sauce are cooked together with crispy prosciutto for a quick dinner made in one skillet. Serve this dish with crusty bread to soak up all that yummy sun-dried tomato sauce. Everyone at the dinner table loves these saucy Italian meatballs; this meatball recipe never disappoints!
+                </p>
+                <div class="text-end">
+                  <a href="recipe5.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!--Recpie 6-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 6.jpg" class="card-img-top img-fit" alt="30 Minute Honey Garlic Chicken">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">30 Minute Honey Garlic Chicken</h5>
+                <p class="card-text" style="color: #51361a">
+                  30 Minute Honey Garlic Chicken, a new go-to sheet pan meal. Easy, homemade 	crispy chicken tossed in a spicy-sweet honey garlic sauce. Serve this dish with 	asparagus, broccoli, or a combination of the two, cooked up right alongside the 	chicken. It’s the easiest sheet pan dinner. Add a side of rice for a main dish or 	serve it on its own as an appetizer. This fun take-out-style dinner is great any 	night of the week!
+                </p>
+                <div class="text-end">
+                  <a href="recipe6.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>  
+<!--End of Favorite Recpie Container-->
+
+<!--Dessert Recipe Container-->
+  <div class="container-fluid p-5" style="background-color: blanchedalmond;">
+    <h1 class="text-center mb-5" style="color: #51361a">Dessert Recipes</h1>
+
+    <!--Recipes 1-3-->
+    <div class="row g-3">
+    <!--Recipe 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 7.jpg" class="card-img-top img-fit" alt="Caramel Crunch Tart">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Caramel Crunch Tart</h5>
+                    <p class="card-text" style="color: #51361a">
+                      Tarts don’t have to mean complicated. Exhibit A: This chocolate dessert that isn’t fussy and requires zero (yes, zero) baking. This tart is great for a last-minute dessert because it mainly uses store-bought ingredients, and the majority of time required for this recipe is just letting it chill in the refrigerator!
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe7.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recipe 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 8.jpg" class="card-img-top img-fit" alt="S'mores Brownies">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">S'mores Brownies</h5>
+                    <p class="card-text" style="color: #51361a">
+                      Step aside, chocolate bars—s'mores brownies are the BEST way to eat s'mores. Whether you want to skip the campfire or make this camping classic for crowd, these brownies are the perfect way share this summer treat.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe8.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recpie 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 9.jpg" class="card-img-top img-fit" alt="Chocolate Pie Cookies">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Chocolate Pie Cookies</h5>
+                    <p class="card-text" style="color: #51361a">
+                      If you love the richness and the comfort of homemade French silk pie, then these chocolate pie cookies are just what you need. Inspired by the classic, but with the ease and convenience of a cookie, this recipe offers a unique twist on beloved flavors.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe9.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Recpies 4-6-->
+    <div class="row g-3 mt-1">
+      <!--Recpie 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="images/recipe 10.jpg" class="card-img-top img-fit" alt="Biscoff Trifle">
+                  <div class="card-body">
+                      <h5 class="card-title" style="color: #51361a">Biscoff Trifle</h5>
+                      <p class="card-text" style="color: #51361a">
+                        You may be most familiar with these cookies as a beloved Delta in-flight snack. In fact, Biscoff’s partnership with the airline is what first introduced American consumers to the cookie in the 1980s. We love eating them all year long, but especially around Christmastime. So we decided to celebrate speculoos with this show-stopping holiday trifle.
+                      </p>
+                      <div class="text-end">
+                        <a href="recipe10.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                        onmouseover=
+                        "this.style.color='white';
+                         this.style.backgroundColor='#c42d2d'" 
+                         onmouseout="
+                         this.style.color='white';
+                         this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      <!--Recpie 5-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 11.jpg" class="card-img-top img-fit" alt="Milk 'N' Cookies Icebox Cake">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">Milk 'N' Cookies Icebox Cake</h5>
+                <p class="card-text" style="color: #51361a">
+                  Is there any better combo than milk and chocolate chip cookies? We think not. For this particular recipe, you don't even have to bake the cookies yourself! All you need to make this show-stopper no-bake dessert are 4 ingredients—cookies, heavy cream, cream cheese and powdered sugar—and a couple hours.
+                </p>
+                <div class="text-end">
+                  <a href="recipe11.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!--Recpie 6-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 12.jpg" class="card-img-top img-fit" alt="Drumstick Pie">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">Drumstick Pie</h5>
+                <p class="card-text" style="color: #51361a">
+                  Sugar cone fans—get ready to meet your new fave dessert. We use sugar cones not only for the topping in this no-bake dessert, but also in the homemade crust. Layered with vanilla ice cream, chocolate ganache, and crumbled peanuts for a sweet-salty, topping, this "pie" truly has something for everyone.
+                </p>
+                <div class="text-end">
+                  <a href="recipe12.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>  
+<!--End of Dessert Recpie Container-->
+
+<!--Quick Lunch Recipes Container-->
+  <div class="container-fluid p-5" style="background-color: blanchedalmond;">
+    <h1 class="text-center mb-5" style="color: #51361a">Quick Lunch Recipes</h1>
+
+    <!--Recipes 1-3-->
+    <div class="row g-3">
+    <!--Recipe 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 13.jpg" class="card-img-top img-fit" alt="Buffalo Grilled Cheese">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Buffalo Chicken Grilled Cheese</h5>
+                    <p class="card-text" style="color: #51361a">
+                      There’s no shame in a hearty dip for dinner in our book, but if you need a good excuse to enjoy your favorite warm dip without any shame, then let us introduce Buffalo chicken’s new best friend: grilled cheese. This combination is not only ridiculously good, but it’s so easy to make, you’ll wonder why you haven’t been turning your favorite dip into sandwich form all this time. Whether you’re looking for a game day dinner or a post-Super Bowl snack to use up your leftovers, this grilled cheese is a game-changer.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe13.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recipe 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 14.jpg" class="card-img-top img-fit" alt="Taco Salad">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Taco Salad</h5>
+                    <p class="card-text" style="color: #51361a">
+                      When it comes to healthy salads, none are more hearty than a taco salad. Load it up with veggies, cheese, and ground beef for the perfect satisfying summer meal. We love this classic version, but if you want to get fancy, feel free to swap in and out your fave toppings.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe14.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Recpie 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="images/recipe 15.jpg" class="card-img-top img-fit" alt="Cheesy Baked Burrito Rice">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: #51361a">Cheesy Baked Burrito Rice</h5>
+                    <p class="card-text" style="color: #51361a">
+                      Seared chorizo sausage, hearty pinto beans, salsa, and rice are baked until the rice is tender, then topped with a mountain of cheese, broiled to melty perfection, and sprinkled with your favorite burrito accessories.
+                    </p>
+                    <div class="text-end">
+                      <a href="recipe15.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                      onmouseover=
+                      "this.style.color='white';
+                       this.style.backgroundColor='#c42d2d'" 
+                       onmouseout="
+                       this.style.color='white';
+                       this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Recpies 4-6-->
+    <div class="row g-3 mt-1">
+      <!--Recpie 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="images/recipe 16.jpg" class="card-img-top img-fit" alt="Crispy Sheet-Pan Black Bean Tacos">
+                  <div class="card-body">
+                      <h5 class="card-title" style="color: #51361a">Crispy Sheet-Pan Black Bean Tacos</h5>
+                      <p class="card-text" style="color: #51361a">
+                        Tacos always bring party vibes, but when they’re baked until crisp and rimmed with crunchy cheesy frico, it’s an all-out fiesta. Featuring refried black beans stuffed inside a crunchy corn tortilla, this irresistible cross between a taco and a sheet-pan quesadilla will make any weekday feel like a celebration.
+                      </p>
+                      <div class="text-end">
+                        <a href="recipe16.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                        onmouseover=
+                        "this.style.color='white';
+                         this.style.backgroundColor='#c42d2d'" 
+                         onmouseout="
+                         this.style.color='white';
+                         this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      <!--Recpie 5-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 17.jpg" class="card-img-top img-fit" alt="Pinwheel Sandwhiches">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">Pinwheel Sandwhiches</h5>
+                <p class="card-text" style="color: #51361a">
+                  Pinwheel sandwiches are here with their totally retro swirls, ready to be packed into lunchboxes, piled onto game day spreads, or just eaten as an afternoon snack. As long as you stick with the basic formula and amounts, the sky's the limit on what you can fill 'em with too.
+                </p>
+                <div class="text-end">
+                  <a href="recipe17.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      <!--Recpie 6-->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+            <img src="images/recipe 18.jpg" class="card-img-top img-fit" alt="Turkey Lavash Wraps">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #51361a">Turkey Lavash Wraps</h5>
+                <p class="card-text" style="color: #51361a">
+                  This wrap is hearty enough to keep you full until dinner, but not so heavy you require a post-lunch nap. Filled with a zingy arugula-dill salad, sliced turkey, roasted red peppers, and crunchy cucumbers, and sealed with a creamy goat cheese spread, it's exactly the kind of colorful lunch we crave to brighten up our weekdays.
+                </p>
+                <div class="text-end">
+                  <a href="recipe18.html" type="button" class="btn custom-btn text-white" style="background-color: #8b0000"
+                  onmouseover=
+                  "this.style.color='white';
+                   this.style.backgroundColor='#c42d2d'" 
+                   onmouseout="
+                   this.style.color='white';
+                   this.style.backgroundColor='#8b0000'">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>  
+<!--End of Dessert Recpie Container-->
+
+<!--Footer-->
+<footer class=" container-fluid p-5 text-white text-center" style="background-color: #8B0000;">
+  <p>Livia's Cookbook</p>
+  <p style="text-decoration: underline"><a href="contact.html"class="text-white">Email Us</a></p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

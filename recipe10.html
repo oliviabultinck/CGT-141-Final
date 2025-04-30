@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livia's Cookbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./master.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg" style="background-color: #8B0000;">
+    <div class="container-fluid">
+      <img src="images/Chef_Livia_Logo.jpg" alt="Logo" width="75" height="75" class="d-inline-block align-text-top" style="margin-right:15px">
+      <a class="navbar-brand text-white" href="index.html">Livia's Cookbook</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown"> <!--Dropdown Button-->
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: underline">Recipes</a>
+            <ul class="dropdown-menu" style="background-color:#8B0000"> <!--Dropdown Options-->
+                    <li class="nav-item dropdown-submenu">
+                      <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Our Favorite Recipes</a>
+                      <ul class="dropdown-menu" style="background-color:#8B0000">
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe1.html">Creamy Garlic Butter Baked Salmon</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe2.html">Creamy Homestyle Chicken Noodle Soup</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe3.html">Baked Garlic Parmesan Boneless Wings</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe4.html">Skillet White Pesto Marry Me Chicken and Orzo</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe5.html">Marry Me Chicken Meatballs</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe6.html">30 Minute Honey Garlic Chicken</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Dessert Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe7.html">Caramel Crunch Tart</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe8.html">S'mores Brownie</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe9.html">Chocolate Pie Cookies</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe10.html">Biscoff Trifle</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe11.html">Milk 'N' Cookies Icebox Cake</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe12.html">Drumstick Pie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Easy Lunch Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe13.html">Buffalo Chicken Grilled Cheese</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe14.html">Taco Salad</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe15.html">Cheesy Baked Burrito Rice</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe16.html">Cripsy Sheet-Pan Black Bean Tacos</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe17.html">Pinwheel Sandwhiches</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe18.html">Turkey Lavash Wraps</a></li>
+                        </ul>
+                    </li>
+            </ul>
+          </li>
+          <li class="nav-item"> <!--About Us Page-->
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item"> <!--Contact Page-->
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Green Buffer Container-->  
+  <div class="container-fluid" style="height: 35px; background-color: darkgreen;">
+  </div>
+
+  <!--Recipe Container-->
+  <div class="container-fluid p-5" style="background-color: blanchedalmond;">
+    <h1 class="text-center mb-5" style="color: #51361a">Biscoff Trifle</h1>
+
+    <!--Recipe Row-->
+    <!--Recipe Picture-->
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <div class="text-black text-center p-3" style="background-color: #fff0db;">
+                <img src="images/recipe 10.jpg" class="img-thumbnail w-100" alt="Biscoff Trifle">
+            </div>
+        </div>
+    </div>
+
+    <!--Recipe Description Row-->
+    <!--Recipe Description-->
+    <div class="row">
+        <div class="col-10 text-center p-3 mt-2 mx-auto">
+            <div class="text-black text-center p-3" style="background-color: #fff0db;">
+                <p style="color: #51361a">
+                  You may be most familiar with these cookies as a beloved Delta in-flight snack. In fact, Biscoff’s partnership with the airline is what first introduced American consumers to the cookie in the 1980s. We love eating them all year long, but especially around Christmastime. So we decided to celebrate speculoos with this show-stopping holiday trifle.
+                </p>
+            </div>
+        </div>
+    </div>    
+
+    <!--Ingredients/Kitchen Supplies Row-->
+    <!--Ingredients Column--> 
+    <div class="row"> 
+        <div class="col-6 mx-auto">
+            <div class="text-black p-3 mt-4 mb-4" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Ingredients</h4>
+                <ul style="color: #51361a">
+                    <li>Cooking spray</li>
+                    <li>All-purpose flour</li>
+                    <li>Ground cinnamon</li>
+                    <li>Baking soda</li>
+                    <li>Kosher salt</li>
+                    <li>Ground anise</li>
+                    <li>Grond cardamom</li>
+                    <li>Ground ginger</li>
+                    <li>Ground nutmeg</li>
+                    <li>Brown sugar</li>
+                    <li>Unsalted butter</li>
+                    <li>Eggs</li>
+                    <li>Pure vanilla extract</li>
+                    <li>Buttermilk</li>
+                    <li>Biscoff cookie butter</li>
+                    <li>Cream cheese</li>
+                    <li>Heavy cream</li>
+                    <li>Confectioners' sugar</li>
+                    <li>Biscoff cookies</li>
+                    <li>Caramek sauce</li>
+                </ul>
+            </div>
+        </div>  
+    <!--Kitchen Supplies Column-->
+        <div class="col-6 mx-auto">
+            <div class="text-black p-3 mt-4 mb-4" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Kitchen Supplies</h4>
+                <ul style="color: #51361a">
+                    <li>Baking pans</li>
+                    <li>Handheld mixer</li>
+                    <li>Wire rack</li>
+                    <li>Large mixing bowls</li>
+                    <li>Teaspoons</li>
+                    <li>Measuring cups</li>
+                    <li>Serving dish</li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <!--Recipe Instructions Row-->
+    <!--Recipe Column-->  
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-black p-2 mt-3 mb-2" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Cake Recipe</h4>
+                <p style="color: #51361a"><strong>Step 1:</strong> Preheat oven to 350°. Grease an 8" cake pan with cooking spray. In a medium bowl, whisk flour, cinnamon, baking soda, salt, anise, cardamom, ginger, and nutmeg until combined.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 2:</strong> In a large bowl, using a handheld mixer (or in the large bowl of a stand mixer fitted with the paddle attachment), beat brown sugar and butter on medium speed until light and fluffy, 3 to 5 minutes. Add eggs, one at a time, beating to blend after each addition. Beat in vanilla.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 3:</strong> Add about half of dry ingredients and beat on low speed until just combined. Add half of buttermilk and beat until mostly combined. Scrape sides and bottom of bowl with a rubber spatula. Beat in remaining dry ingredients until just combined, then beat in remaining buttermilk. Pour batter into prepared pan.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 4:</strong> Bake cake until a tester inserted into the center comes out clean, 50 to 55 minutes.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 5:</strong> Carefully invert cake onto a wire rack and let cool in pan at least 30 minutes before removing pan. Let cool completely. Slice cake in half through the equator to make 2 circular pieces.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-black p-2 mt-3 mb-2" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Cookie Butter Mouse Recipe</h4>
+                <p style="color: #51361a"><strong>Step 1:</strong> In a medium bowl, using handheld mixer (or in the large bowl of stand mixer fitted with the whisk attachment), beat cookie butter, cream cheese, and a pinch of salt on medium speed until light and fluffy, 3 to 5 minutes.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 2:</strong> With the motor running, slowly pour in heavy cream and continue to beat until thoroughly combined.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-black p-2 mt-3 mb-5" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Whipped Cream Recipe</h4>
+                <p style="color: #51361a"><strong>Step 1:</strong> In a medium bowl, using handheld mixer (or in the large bowl of stand mixer fitted with the whisk attachment), beat cream, confectioners’ sugar, and vanilla on medium speed until soft peaks form, about 3 minutes.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-black p-2 mt-3 mb-5" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Assembly</h4>
+                <p style="color: #51361a"><strong>Step 1:</strong> Using the circumference of your trifle dish as a guide, trim 2 cakes to fit the dish.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 2:</strong> Spread 1/2 cup whipped cream on bottom of dish, then gently place 1 cake slice on top. Top cake with about half of cookie butter mousse.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 3:</strong> Arrange cookies upright along perimeter of dish (depending on the dimensions of your dish, that may take anywhere from 10 to 14 cookies).</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 4:</strong> Spoon 1 1/2 cups whipped cream in the center of dish. Using a butter knife or offset spatula, gently guide cream between each cookie. Drizzle about 1/4 cup caramel sauce on top.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 5:</strong> Gently place second cake slice on top, then add remaining cookie butter mousse. Using a spatula or piping bag, top trifle with remaining whipped cream. Cover and refrigerate at least 3 hours or up to overnight.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 6:</strong> Before serving, drizzle trifle with more caramel sauce. Decorate surface with 2 more cookies, then dust with confectioners’ sugar.</p>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--End of Recpie Container-->
+
+<!--Footer-->
+<footer class=" container-fluid p-5 text-white text-center" style="background-color: #8B0000;">
+  <p>Livia's Cookbook</p>
+  <p style="text-decoration: underline"><a href="contact.html"class="text-white">Email Us</a></p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

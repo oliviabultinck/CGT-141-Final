@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Livia's Cookbook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./master.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg" style="background-color: #8B0000;">
+    <div class="container-fluid">
+      <img src="images/Chef_Livia_Logo.jpg" alt="Logo" width="75" height="75" class="d-inline-block align-text-top" style="margin-right:15px">
+      <a class="navbar-brand text-white" href="index.html">Livia's Cookbook</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown"> <!--Dropdown Button-->
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: underline">Recipes</a>
+            <ul class="dropdown-menu" style="background-color:#8B0000"> <!--Dropdown Options-->
+                    <li class="nav-item dropdown-submenu">
+                      <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Our Favorite Recipes</a>
+                      <ul class="dropdown-menu" style="background-color:#8B0000">
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe1.html">Creamy Garlic Butter Baked Salmon</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe2.html">Creamy Homestyle Chicken Noodle Soup</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe3.html">Baked Garlic Parmesan Boneless Wings</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe4.html">Skillet White Pesto Marry Me Chicken and Orzo</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe5.html">Marry Me Chicken Meatballs</a></li>
+                        <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe6.html">30 Minute Honey Garlic Chicken</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Dessert Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe7.html">Caramel Crunch Tart</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe8.html">S'mores Brownie</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe9.html">Chocolate Pie Cookies</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe10.html">Biscoff Trifle</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe11.html">Milk 'N' Cookies Icebox Cake</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe12.html">Drumstick Pie</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-submenu">
+                        <a class="nav-link dropdown-toggle text-white" style="background-color: #8b0000" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">Easy Lunch Recipes</a>
+                        <ul class="dropdown-menu" style="background-color:#8B0000">
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe13.html">Buffalo Chicken Grilled Cheese</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe14.html">Taco Salad</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe15.html">Cheesy Baked Burrito Rice</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe16.html">Cripsy Sheet-Pan Black Bean Tacos</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe17.html">Pinwheel Sandwhiches</a></li>
+                          <li><a class="dropdown-item text-white" style="background-color: #8b0000" href="recipe18.html">Turkey Lavash Wraps</a></li>
+                        </ul>
+                    </li>
+            </ul>
+          </li>
+          <li class="nav-item"> <!--About Us Page-->
+            <a class="nav-link text-white" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item"> <!--Contact Page-->
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Green Buffer Container-->  
+  <div class="container-fluid" style="height: 35px; background-color: darkgreen;">
+  </div>
+
+  <!--Recipe Container-->
+  <div class="container-fluid p-5" style="background-color: blanchedalmond;">
+    <h1 class="text-center mb-5" style="color: #51361a">Creamy Homestyle Chicken Noodle Soup</h1>
+
+    <!--Recipe Row-->
+    <!--Recipe Picture-->
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <div class="text-black text-center p-3" style="background-color: #fff0db;">
+                <img src="images/recipe 2.jpg" class="img-thumbnail w-100" alt="Creamy Homestyle Chicken Noodle Soup">
+            </div>
+        </div>
+    </div>
+
+    <!--Recipe Description Row-->
+    <!--Recipe Description-->
+    <div class="row">
+        <div class="col-10 text-center p-3 mt-2 mx-auto">
+            <div class="text-black text-center p-3" style="background-color: #fff0db;">
+                <p style="color: #51361a">
+                    This simple, creamy homestyle chicken noodle soup is the perfect comfort food. It’s great for nights when you’re craving something warm and cozy. It’s a mix of shredded chicken and vegetables simmered with warming seasonings, a splash of cream, and classic egg noodles. Finish each bowl off with an extra sprinkle of cheese and serve with crusty bread. It’s hearty, full of herbs and veggies, and so delicious.
+                </p>
+            </div>
+        </div>
+    </div>    
+
+    <!--Ingredients/Kitchen Supplies Row-->
+    <!--Ingredients Column--> 
+    <div class="row"> 
+        <div class="col-6 mx-auto">
+            <div class="text-black p-3 mt-4 mb-4" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Ingredients</h4>
+                <ul style="color: #51361a">
+                    <li>Salted butter</li>
+                    <li>Yellow onions</li>
+                    <li>Garlic</li>
+                    <li>Carrots</li>
+                    <li>Celery</li>
+                    <li>All-purpose flour</li>
+                    <li>Fresh or dry thyme</li>
+                    <li>Fresh or dry sage</li>
+                    <li>A dry bay leaf</li>
+                    <li>Broth</li>
+                    <li>Boneless chicken breast ot thighs</li>
+                    <li>Egg noodles</li>
+                    <li>Whole milk or cream</li>
+                    <li>Parmesan cheese</li>
+                    <li>Fresh parsley</li>
+                </ul>
+            </div>
+        </div>  
+    <!--Kitchen Supplies Column-->
+        <div class="col-6 mx-auto">
+            <div class="text-black p-3 mt-4 mb-4" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Kitchen Supplies</h4>
+                <ul style="color: #51361a">
+                    <li>Soup pot</li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+    <!--Recipe Instructions Row-->
+    <!--Recipe Column-->  
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="text-black p-2 mt-3 mb-5" style="background-color: #fff0db;">
+                <h4 class="text-decoration-underline text-start" style="color: #51361a">Recipe</h4>
+                <p style="color: #51361a"><strong>Step 1:</strong> Cook the butter with the onions, garlic, carrots, and celery. Make the vegetables soft, then add the flour. We’re using flour to help create a creamy soup! Add the thyme and sage. I use fresh herbs when I have them, but I only had dry thyme and then some fresh sage. If you only have dry herbs, that’s ok, use those!</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 2:</strong> Now add the broth. Mix in the chicken. Allow the chicken to simmer in the broth until it’s fully cooked throughout, which will take about 15 to 20 minutes. If you have a parmesan rind on hand, adding it in with the chicken really does add nice flavor.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 3:</strong> Shred the chicken. Then, add the noodles to the boiling broth and allow them to cook, usually for 2 to 3 minutes. You’ll know the noodles are ready when they float to the top.</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 4:</strong> When ready, mix in a cup of whole milk or cream. Then add some parmesan and finish the soup with fresh parsley or whatever herb you have. Then season with salt and pepper to make sure it’s just perfect!</p>
+                <br>
+                <p style="color: #51361a"><strong>Step 5:</strong> I recommend serving this soup with a side of crusty bread. It’s the best accompaniment to a bowl of chicken noodle soup.</p>
+            </div>
+        </div>
+    </div>
+</div> 
+<!--End of Recpie Container-->
+
+<!--Footer-->
+<footer class=" container-fluid p-5 text-white text-center" style="background-color: #8B0000;">
+  <p>Livia's Cookbook</p>
+  <p style="text-decoration: underline"><a href="contact.html"class="text-white">Email Us</a></p>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
